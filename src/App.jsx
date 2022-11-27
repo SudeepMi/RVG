@@ -188,6 +188,8 @@ function App() {
         <div className="graph">
           <div className="graphContainer">
             <Line options={options} data={data} />
+            <h4 className="flex">Made with <span className="b" style={{fontSize:30}}> &#10084; </span>{" "} By CodeWithSudeep</h4>
+            <img src="./logo.png" width={"90px"} />
           </div>
         </div>
       </div>

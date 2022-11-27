@@ -43,6 +43,12 @@
   font-weight: 600;
 
 }
+.flex{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 
 @keyframes logo-spin {
   from {
