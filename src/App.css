@@ -1,0 +1,68 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  width: 90%;
+  margin: auto;
+}
+.wrap{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.graphContainer{
+  width: 60vw;
+}
+.form{
+  min-width: 15vw;
+}
+.input_area{
+  display: grid;
+  margin-top: 20px;
+  row-gap: 10px;
+}
+.input_area input{
+  padding: 10px;
+}
+.dis_selector{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  gap: 10px;
+}
+.a{
+  color: rgb(53,162,235);
+  font-weight: 600;
+}
+.b{
+  color: rgb(255,129,156);
+  font-weight: 600;
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
